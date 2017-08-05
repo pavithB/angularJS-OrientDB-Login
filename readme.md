@@ -1,4 +1,4 @@
-<h1>run on tomcat server <b>little-hard-way-to-run</b></h1>
+<h3>run on tomcat server <h1><u>little-hard-way-to-run</u></h1></h3>
 
 1.download tomCat server and apache (https://tomcat.apache.org/download-80.cgi) [*you'll need to set environment variables) 
 2.download orientDB (https://orientdb.com/download/)
@@ -18,7 +18,7 @@
  
 
 
-<h1>run on http-server server <b>easy</b></h1>
+<h1>run on http-server server <h1><u>easy</u></h1></h1>
 
 1.install Allow-Control-Allow-Origin: * extention 
 (https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?utm_source=chrome-app-launcher-info-dialog)
