@@ -29,3 +29,19 @@
 7.npm install -g http-server
 8.http-server -o. -o
 8.use username= a and password= a 
+
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/23357240/28998630-d899b892-7a4d-11e7-9d6e-f8a4137bf70a.png" width="350"/>
+</p>
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/23357240/28998644-2a0b8188-7a4e-11e7-8bea-41fac7d3871f.png" width="350"/>
+</p>
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/23357240/28998646-3e02183c-7a4e-11e7-8a16-0a053e9b634d.png" width="350"/>
+</p>
