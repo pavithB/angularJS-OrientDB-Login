@@ -1,0 +1,126 @@
+<div ng-controller="dashboardCtrl">
+	<div align="center" >
+<br/>
+<br/>
+<br/>
+<h1 > USER DASHBOARD </h1>
+
+<br/>
+<br/>
+<br/>
+
+
+Please enter details and press add to add new record
+<br/>
+<br/>
+<br/>
+  <form id="userUpdate" align="center">
+  
+  <table align="center">
+
+    
+  <tr>
+  <td>
+		<b>Name:</b>
+    </td>
+
+  <td>
+
+		<input type="text" id="name" ng-model="name">
+
+    </td>
+  </tr>
+   <tr>
+  <td>
+<br/>
+<br/>
+    </td>
+  </tr>
+    <tr>
+  <td>
+		<b>Age:</b>
+    </td>
+
+  <td>
+
+		<input type="text" id="age" ng-model="age">
+
+    </td>
+  </tr>
+     <tr>
+  <td>
+<br/>
+<br/>
+    </td>
+  </tr>
+    <tr>
+  <td>
+		<b>Mobile number:</b>
+    </td>
+
+  <td>
+
+		<input type="text" id="mobile" ng-model="mobile">
+
+    </td>
+  </tr>
+     <tr>
+  <td>
+<br/>
+<br/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button ng-click="update()">ADD</button>
+    </td>
+        <td>
+      <button ng-click="clear()">Clear</button>
+
+    </td>
+  </tr>
+     <tr>
+  <td>
+<br/>
+<br/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <button ng-click="display()">View</button>
+    </td>
+  </tr>
+      
+
+ </table>
+
+
+<br/>
+<br/>
+
+<!--<tr ng-repeat = "student in students">
+			<td>{{student.stuName}}</td>
+			<td>{{student.stuEmail}}</td>
+			<td>{{student.address}}</td>
+		</tr>-->
+
+
+
+ <table   border="1"  align="center" >
+
+  <tr >
+    <td>NAME</td>
+    <td>AGE</td>
+    <td>MOBILE</td>
+  </tr>
+
+  <tr ng-repeat="x in disdata">
+    <td>{{ x.name }}</td>
+    <td>{{ x.age }}</td>
+    <td>{{ x.mobile }}</td>
+  </tr>
+</table>
+ 		
+	</form>
+
+</div>
