@@ -21,13 +21,21 @@
 <h1>run on http-server server -------(easy)-----</h1>
 
 1.install Allow-Control-Allow-Origin: * extention 
+
 (https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?utm_source=chrome-app-launcher-info-dialog)
+
 2.download orientDB (https://orientdb.com/download/)
+
 3.download this repository and go to DB folder and copy ApplicationData folder and go to orientDB folder > go to databases > and paste 
-5.go to downloaded orientDb folder > go to bin > then run server.bat ( if mac or linux server.sh  ) 
-6.open cmd in this directry ( downloded repository ) 
-7.npm install -g http-server
-8.http-server -o. -o
+
+4.go to downloaded orientDb folder > go to bin > then run server.bat ( if mac or linux server.sh  ) 
+
+5.open cmd in this directry ( downloded repository ) 
+
+6.npm install -g http-server
+
+7.http-server -o. -o
+
 8.use username= a and password= a 
 
 
