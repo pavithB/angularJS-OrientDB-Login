@@ -1,12 +1,19 @@
 <h1>run on tomcat server -----(little-hard-way-to-run)------</h1>
 
 1.download tomCat server and apache (https://tomcat.apache.org/download-80.cgi) [*you'll need to set environment variables) 
+
 2.download orientDB (https://orientdb.com/download/)
+
 3.download this repository and go to DB folder and copy ApplicationData folder and go to orientDB folder > go to databases > and paste 
+
 4.move downloaded repository folder to tomcatserver (go to tomcat server > webapps > paste)
+
 5.go to downloaded orientDb folder > go to bin > then run server.bat ( if mac or linux server.sh  ) 
+
 6.go to tomcat server folder > go to bin > run catalina.bat ( if mac or linux catalina.sh  ) 
+
 7.go to your webbrowser and go to http://localhost:8080/myLogin 
+
          (if not working 
 
         1.install Allow-Control-Allow-Origin: * extention 
